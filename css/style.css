@@ -1,0 +1,32 @@
+.jumbotron {
+    background-image: url("../images/02-hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.jumbotron img {
+    height: 20%;
+    width: 10%;
+    margin-right: 100px;
+    border-radius: 50%
+    
+}
+
+.jumbotron h1 {
+    background-color: aqua;
+    width: 350px;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+    font-size: large;
+    background-color: aqua;
+    width: 600px;
+    height: 80px;
+
+}
