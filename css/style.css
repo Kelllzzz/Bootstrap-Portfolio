@@ -30,3 +30,28 @@
     height: 80px;
 
 }
+.card {
+    width: 70%;
+    margin: 10px;
+}
+
+.groups {
+    margin-left: 60px;
+}
+
+.groups li {
+    list-style: none;
+}
+
+.page-section {
+    flex-wrap: nowrap;
+
+}
+
+.page-section-row>div {
+    flex: 0 0 65%;
+}
+
+.subwork {
+    margin-left: 80px;
+}
