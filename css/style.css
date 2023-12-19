@@ -15,8 +15,8 @@
 }
 
 .jumbotron h1 {
-    background-color: aqua;
-    width: 350px;
+    background-color: royalblue;
+    
 }
 
 .intro {
@@ -24,11 +24,16 @@
     align-items: center;
     margin-top: auto;
     font-size: large;
-    background-color: aqua;
-    width: 600px;
+    background-color: royalblue;
     height: 80px;
 
 }
+
+a {
+    color: turquoise;
+    font-size: 25px;
+    justify-content: space-between;
+  }
 
 .card {
     width: 70%;
@@ -53,7 +58,7 @@
 }
 
 .subwork {
-    margin-left: 80px;
+    margin-left: 50px;
 }
 
 .title {
@@ -68,7 +73,7 @@
 .title>h2 {
     flex: 0 0 30%;
     text-align: right;
-    padding-right: 10px;
+    padding-right: 5px;
 }
 
 .title>div {
