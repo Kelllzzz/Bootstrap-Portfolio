@@ -45,6 +45,11 @@
   width: 200px;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 .Parent {
   width: 250px;
   border-right: 5px solid darkslategray;
@@ -68,8 +73,8 @@
 }
 
 .display-5 {
-  margin-right:10%;
-  margin-bottom:20px;
+  margin-right: 10%;
+  margin-bottom: 20px;
 }
 
 .intro {
@@ -84,44 +89,43 @@
 }
 
 /* Responsive Styles */
-@media (max-width: 900px){
+@media (max-width: 780px) {
+  .Parent {
+    width: 100px;
+    border-right: none;
+    margin-bottom: 5px;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 50px;
+  }
 
-      .Parent {
-        width: 100px;
-        border-right: none;
-        margin-bottom: 5px;
-        justify-content: flex-start;
-        align-items: center;
-        margin-right: 50px;
-      }
+  .page-section {
+    flex-direction: column;
+    justify-content: center;
+    padding: 10%;
+  }
 
-      .page-section {
-        flex-direction: column;
-        justify-content: center;
-        padding: 10%;
-      }
+  .groups {
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-start;
+    margin-left: -40px;
+    font-size: small;
+  }
 
-      .groups{
-        flex-direction: column;
-        width: 100%;
-        justify-content: flex-start;
-        margin-left: -40px;
-        font-size: small;
-      }
+  .Content {
+    width: 100%;
+    justify-content: flex-start;
+    margin-left: 5px;
+    margin-right: 20px;
+  }
 
-       .Content{
-        width: 100%;
-        justify-content: flex-start;
-        margin-left: 5px;
-        margin-right: 20px;
-      }
+  .jumbotron img {
+    height: 150px;
+    width: 100px;
+  }
 
-      .jumbotron img {
-        height: 150px;
-        width: 100px;
-      }
-
-      .page-section > a {
-        margin-left: 10px;
-      }
+  .page-section > a {
+    margin-left: 10px;
+  }
 }
