@@ -12,7 +12,7 @@ N/A.
 
 To use this website,the following image shows the web application's appearance and functionality:
 
-![my portfolio webpage includes a navigation bar, a jumbotron with my name and image, and various sections showcasing my work, skills, about me then my contact details at the bottom of the page](https://github.com/Kelllzzz/Bootstrap-Portfolio/blob/main/Images/Screenshot.jpeg)
+![my portfolio webpage includes a navigation bar, a jumbotron with my name and image, and various sections showcasing my work, skills, about me then my contact details at the bottom of the page](./Images/Screenshot.png)
 
 ## Access
 
