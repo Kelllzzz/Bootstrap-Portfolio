@@ -1,5 +1,5 @@
 .jumbotron {
-  background-image: url("/Images/02-hero-bg.jpg");
+  background-image: url("./Images/02-hero-bg.jpg");
   background-size: cover;
   background-position: center;
   height: 400px;
@@ -76,6 +76,13 @@
   margin-right: 50%;
 }
 
+.page-section > a {
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: 80px;
+}
+
 /* Responsive Styles */
 @media (max-width: 900px){
 
@@ -114,4 +121,7 @@
         width: 100px;
       }
 
+      .page-section > a {
+        margin-left: 10px;
+      }
 }
