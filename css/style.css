@@ -14,21 +14,6 @@
   border-radius: 50%;
 }
 
-/* .intro {
-  display: flex;
-  align-items: flex-start;
-  /* margin-top: auto; */
-  /* font-size: x-large; */
-  /* background-color: royalblue; */
-  /* height: 80px; */
-/* } */ */
-
-#Contact {
-  color: turquoise;
-  font-size: 25px;
-  justify-content: space-evenly;
-}
-
 .card {
   margin: 10px;
 }
@@ -58,19 +43,6 @@
   margin-left: 20px;
   padding-right: 10px;
   width: 200px;
-}
-
-.title > h2 {
-  flex: 0 0 30%;
-  width: 80px;
-  text-align: right;
-  padding-right: 5px;
-}
-
-.title > div {
-  flex: 0 0 35%;
-  text-align: left;
-  margin-left: 10px;
 }
 
 .Parent {
@@ -104,6 +76,7 @@
   margin-right: 50%;
 }
 
+/* Responsive Styles */
 @media (max-width: 900px){
 
       .Parent {
@@ -114,6 +87,7 @@
         align-items: center;
         margin-right: 50px;
       }
+
       .page-section {
         flex-direction: column;
         justify-content: center;
@@ -121,7 +95,7 @@
       }
 
       .groups{
-        flex-direction: column-reverse;
+        flex-direction: column;
         width: 100%;
         justify-content: flex-start;
         margin-left: -40px;
@@ -134,4 +108,10 @@
         margin-left: 5px;
         margin-right: 20px;
       }
+
+      .jumbotron img {
+        height: 150px;
+        width: 100px;
+      }
+
 }
